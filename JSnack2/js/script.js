@@ -5,27 +5,27 @@ Il software stampa prima la parola più corta, poi la parola più lunga.
 
 //Chiedo la prima parola con un prompt e la salvo in una variabile
 
-const Word_1 = prompt('Scrivi una parola')
+const Word_1 = prompt('Scrivi una parola');
 
 //Chiedo la seconda parola con un prompt e la salvo in una variabile
 
-const Word_2 = prompt("Scrivi un'altra parola")
+const Word_2 = prompt("Scrivi un'altra parola");
 
 //Salvo in una variabile la lunghezza della prima parola
 
-const firstWord = Word_1.length
+const firstWord = Word_1.length;
 
 //Salvo in una variabile la lunghezza della seconda parola
 
-const secondWord = Word_2.length
+const secondWord = Word_2.length;
 
 //Seleziono il div della parola più corta e lo salvo in una variabile
 
-const short_word = document.querySelector('short_word')
+const short_word = document.querySelector('short_word');
 
 //Seleziono il div della parola più lunga e lo salvo in una variabile
 
-const long_word = document.querySelector('long_word')
+const long_word = document.querySelector('long_word');
 
 
 // Se la prima parola è più lunga della seconda parola
@@ -50,6 +50,6 @@ if (firstWord > secondWord) {
 } else {
 
     //Stampo un alert
-    alert('Le due parole hanno la stessa lunghezza!')
+    alert('Le due parole hanno la stessa lunghezza!');
 
 }
