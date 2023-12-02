@@ -6,19 +6,19 @@ se è dispari inseriscilo nell’array.
 */
 
 // Creo un array vuoto
-const list = []
+const list = [];
 
 // Chiedo per 6 volte all'utente di inserire un numero con ciclo for e prompt
 for (let i = 0; i < 6; i++) {
     
     // Salvo in una variabile i numeri inseriti nel prompt
-    const numb = Number(prompt('Inserisci un numero'))
+    const numb = Number(prompt('Inserisci un numero'));
     
     // Se il numero è dispari
     if (numb % 2 !== 0) {
         
         // Viene pushato nell'array
-        list.push(numb)
+        list.push(numb);
     
     // Altrimenti
     } else {
